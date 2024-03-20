@@ -22,6 +22,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #include QMK_KEYBOARD_H
 
+// clang-format off
 enum my_keycodes {
   LED_GRV = SAFE_RANGE,
   LED_1,
@@ -37,6 +38,7 @@ enum my_keycodes {
   LED_MINS,
   LED_EQL
 };
+// clang-format on
 
 #ifdef RGB_MATRIX_ENABLE
   #ifndef RGB_CONFIRMATION_BLINKING_TIME
